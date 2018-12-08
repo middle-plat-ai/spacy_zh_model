@@ -26,7 +26,7 @@ spacy_zh_model/
 ├── train_tagger_cn.py
 ├── vectors_fast_text.py
 ├── website
-└── zh_model
+└── zh_model  ##训练的中文模型
     ├── meta.json
     ├── ner
     ├── parser
