@@ -8,8 +8,8 @@
 ## dir tree
 
 ```
-.
-├── build
+spacy_zh_model/
+├── build   ##编译
 ├── examples
 ├── fabfile.py
 ├── include
@@ -19,9 +19,9 @@
 ├── spacy  ##spacy源码
 ├── spacy_zh-demo.py
 ├── train_intent_parser_cn.py
-├── train_model.sh
-├── train_ner_cn.py
-├── train_new_entity_type_cn.py
+├── train_model.sh  ##训练中文模型
+├── train_ner_cn.py ##ner
+├── train_new_entity_type_cn.py  ##添加新实体
 ├── train_parser_cn.py
 ├── train_tagger_cn.py
 ├── vectors_fast_text.py
