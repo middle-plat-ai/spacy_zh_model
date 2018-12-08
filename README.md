@@ -40,6 +40,7 @@ spacy_zh_model/
     sh train_model.sh
     
 or
+    
     ## train zh_model
     python vectors_fast_text.py /data/NLP_models/spacy/data/word2vec_c zh
 
