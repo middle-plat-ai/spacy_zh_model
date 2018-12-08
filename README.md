@@ -1,7 +1,9 @@
 # spacy_zh_model
 
 ## [spacy](https://spacy.io/)
-[源码地址](https://github.com/explosion/spaCy/tree/master/spacy)
+
+要为spaCy添加新语言，需要修改library的代码，最简单的方法是克隆[repository](https://github.com/explosion/spaCy)，之后从源码build。
+
 
 ## dir tree
 .
