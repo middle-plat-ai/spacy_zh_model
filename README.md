@@ -17,7 +17,7 @@
 ├── README.md
 ├── requirements.txt
 ├── setup.py
-├── spacy
+├── spacy  ##spacy源码
 ├── spacy_zh-demo.py
 ├── train_intent_parser_cn.py
 ├── train_model.sh
@@ -31,27 +31,10 @@
 └── zh_model
     ├── meta.json
     ├── ner
-    │   ├── cfg
-    │   ├── lower_model
-    │   ├── moves
-    │   ├── tok2vec_model
-    │   └── upper_model
     ├── parser
-    │   ├── cfg
-    │   ├── lower_model
-    │   ├── moves
-    │   ├── tok2vec_model
-    │   └── upper_model
     ├── tagger
-    │   ├── cfg
-    │   ├── model
-    │   └── tag_map
     ├── tokenizer
     └── vocab
-        ├── key2row
-        ├── lexemes.bin
-        ├── strings.json
-        └── vectors
 
 ## 训练中文模型
 sh train_model.sh
