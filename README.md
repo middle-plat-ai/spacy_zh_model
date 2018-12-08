@@ -6,14 +6,9 @@
 ## dir tree
 .
 ├── build
-├── CITATION
-├── CONTRIBUTING.md
-├── cythonize.json
 ├── examples
 ├── fabfile.py
 ├── include
-├── LICENSE
-├── MANIFEST.in
 ├── README.md
 ├── requirements.txt
 ├── setup.py
@@ -25,7 +20,6 @@
 ├── train_new_entity_type_cn.py
 ├── train_parser_cn.py
 ├── train_tagger_cn.py
-├── travis.sh
 ├── vectors_fast_text.py
 ├── website
 └── zh_model
@@ -35,9 +29,10 @@
     ├── tagger
     ├── tokenizer
     └── vocab
+└── ...
 
 ## 训练中文模型
-sh train_model.sh
+    sh train_model.sh
 
 ## Reference
 
