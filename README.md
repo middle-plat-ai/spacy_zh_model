@@ -2,7 +2,7 @@
 
 ## [spacy](https://spacy.io/)
 
-要为spaCy添加新语言，需要修改library的代码，最简单的方法是克隆[repository](https://github.com/explosion/spaCy)，之后从源码build。
+由于spacy官方没有提供中文相关模型，要为spaCy添加中文，需要修改library的代码，最简单的方法是克隆[repository](https://github.com/explosion/spaCy)，再从源码build。
 
 
 ## dir tree
