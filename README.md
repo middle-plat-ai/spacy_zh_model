@@ -6,6 +6,8 @@
 
 
 ## dir tree
+
+```
 .
 ├── build
 ├── examples
@@ -32,6 +34,7 @@
     ├── tokenizer
     └── vocab
 └── ...
+```
 
 ## 训练中文模型
     sh train_model.sh
