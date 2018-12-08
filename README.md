@@ -1,1 +1,65 @@
 # spacy_zh_model
+
+## [spacy](https://spacy.io/)
+[源码地址](https://github.com/explosion/spaCy/tree/master/spacy)
+
+## dir tree
+.
+├── build
+├── CITATION
+├── CONTRIBUTING.md
+├── cythonize.json
+├── examples
+├── fabfile.py
+├── include
+├── LICENSE
+├── MANIFEST.in
+├── README.md
+├── requirements.txt
+├── setup.py
+├── spacy
+├── spacy_zh-demo.py
+├── train_intent_parser_cn.py
+├── train_model.sh
+├── train_ner_cn.py
+├── train_new_entity_type_cn.py
+├── train_parser_cn.py
+├── train_tagger_cn.py
+├── travis.sh
+├── vectors_fast_text.py
+├── website
+└── zh_model
+    ├── meta.json
+    ├── ner
+    │   ├── cfg
+    │   ├── lower_model
+    │   ├── moves
+    │   ├── tok2vec_model
+    │   └── upper_model
+    ├── parser
+    │   ├── cfg
+    │   ├── lower_model
+    │   ├── moves
+    │   ├── tok2vec_model
+    │   └── upper_model
+    ├── tagger
+    │   ├── cfg
+    │   ├── model
+    │   └── tag_map
+    ├── tokenizer
+    └── vocab
+        ├── key2row
+        ├── lexemes.bin
+        ├── strings.json
+        └── vectors
+
+## 训练中文模型
+sh train_model.sh
+
+## Reference
+
+1 [spacy-github地址](https://github.com/explosion/spaCy/tree/master/spacy)
+
+2 [spacy训练中文模型](https://www.jianshu.com/u/3b77f85cc918)
+
+3 [spacy训练中文模型-code](https://github.com/jeusgao/spaCy-new-language-test-Chinese)
